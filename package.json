@@ -1,0 +1,23 @@
+{
+  "name": "pharos-lending-bot",
+  "version": "1.0.0",
+  "description": "Pharos Atlantic WBTC Lending Bot (45 txs per wallet from accounts.txt)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
